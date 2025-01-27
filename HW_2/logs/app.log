@@ -1,0 +1,33 @@
+[34m[2025-01-27T12:54:45.975Z], INFO: Info message[39m 
+[33m[2025-01-27T12:54:45.976Z], WARNING: Warning message[39m 
+[31m[2025-01-27T12:54:45.976Z], ERROR: Error message[39m 
+[34m[2025-01-27T12:54:55.979Z], INFO: 2025-01-27T12:54:55.979Z[39m 
+[34m[2025-01-27T12:55:05.989Z], INFO: 2025-01-27T12:55:05.989Z[39m 
+[34m[2025-01-27T12:55:15.993Z], INFO: 2025-01-27T12:55:15.993Z[39m 
+[34m[2025-01-27T12:55:25.995Z], INFO: 2025-01-27T12:55:25.995Z[39m 
+[34m[2025-01-27T12:55:36.000Z], INFO: 2025-01-27T12:55:36.000Z[39m 
+[34m[2025-01-27T13:03:54.053Z], INFO: Info message[39m 
+[33m[2025-01-27T13:03:54.054Z], WARNING: Warning message[39m 
+[31m[2025-01-27T13:03:54.054Z], ERROR: Error message[39m 
+[34m[2025-01-27T13:04:04.065Z], INFO: 2025-01-27T13:04:04.065Z[39m 
+[34m[2025-01-27T13:04:14.078Z], INFO: 2025-01-27T13:04:14.078Z[39m 
+[34m[2025-01-27T13:04:24.091Z], INFO: 2025-01-27T13:04:24.091Z[39m 
+[34m[2025-01-27T13:04:34.092Z], INFO: 2025-01-27T13:04:34.091Z[39m 
+[31m[2025-01-27T13:10:48.459Z], ERROR: Passed argument is not an instance of Error[39m 
+[31m[2025-01-27T13:10:48.458Z], ERROR: Exception: Error, Message: Test exceotion, Stack: Error: Test exceotion[39m
+[31m    at file:///D:/Hillel_Node/HW_2/testLogger.js:7:9[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m 
+[31m[2025-01-27T13:10:48.459Z], ERROR: Test error message[39m 
+[34m[2025-01-27T13:10:48.459Z], INFO: Test info message[39m 
+[33m[2025-01-27T13:10:48.459Z], WARNING: Test warning message[39m 
+[31m[2025-01-27T13:11:08.674Z], ERROR: Exception: Error, Message: Test exceotion, Stack: Error: Test exceotion[39m
+[31m    at file:///D:/Hillel_Node/HW_2/testLogger.js:7:9[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m 
+[31m[2025-01-27T13:11:08.675Z], ERROR: Passed argument is not an instance of Error[39m 
+[34m[2025-01-27T13:11:08.675Z], INFO: Test info message[39m 
+[31m[2025-01-27T13:11:08.675Z], ERROR: Test error message[39m 
+[33m[2025-01-27T13:11:08.675Z], WARNING: Test warning message[39m 
