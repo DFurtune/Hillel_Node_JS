@@ -1,16 +1,13 @@
 {
-  "name": "hw_2",
+  "name": "hw-1",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "chalk": "^5.4.1",
-    "dotenv": "^16.4.7"
-  }
+  "type": "commonjs"
 }
