@@ -6,5 +6,9 @@ const { publicKey, privateKey } = crypto.generateKeyPairSync("rsa", {
   privateKeyEncoding: { type: "pkcs8", format: "pem" },
 });
 
-console.log("Публічний ключ:\n", publicKey);
-console.log("Приватний ключ:\n", privateKey);
+if (publicKey && privateKey) {
+  console.log("Публічний ключ:\n", publicKey);
+  console.log("Приватний ключ:\n", privateKey);
+} else {
+  console.error("Не вдалося згенерувати ключі.");
+}
