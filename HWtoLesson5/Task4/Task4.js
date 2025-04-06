@@ -15,7 +15,7 @@ async function findLargestFile() {
     for (const file of files) {
       const filePath = join(__dirname, file);
       const fileStats = await stat(filePath);
-      if (fileStats.isFile() && fileStats.size > largestFile) {
+      if (fileStats.isFile() && fileStats.size > largestSize) {
         largestFile = file;
         largestSize = fileStats.size;
       }
