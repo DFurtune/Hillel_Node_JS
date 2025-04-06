@@ -11,7 +11,7 @@ async function replaceText() {
     console.log("Файл успішно оновлено і збережено в updated.txt");
 
     await readFile("source.txt", "utf-8");
-    console.log("Вміст оновленого файлу source.txt:", update);
+    console.log("Вміст оновленого файлу updated.txt:", update);
   } catch (error) {
     console.error("Сталася помилка:", error);
   }
