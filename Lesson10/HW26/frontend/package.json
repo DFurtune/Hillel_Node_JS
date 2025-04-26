@@ -1,0 +1,13 @@
+{
+  "name": "hw26-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for HW26",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
