@@ -6,10 +6,10 @@ services:
     container_name: hotel_booking_db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: hotel_booking
+      MYSQL_USER: hotel_user
+      MYSQL_PASSWORD: hotel_password
     ports:
       - "3306:3306"
     volumes:
