@@ -69,7 +69,7 @@ online-store/
 
 ## Документація
 
-Детальна документація доступна у [Confluence](https://your-company.atlassian.net/wiki/spaces/ONLINE-STORE).
+Детальна документація доступна у [Confluence](https://dfurtune18.atlassian.net/wiki/x/C4AD).
 
 ## Ліцензія
 
